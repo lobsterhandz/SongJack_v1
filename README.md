@@ -110,10 +110,10 @@ python -m unittest discover -s app/tests
 ## Future Enhancements
 1. Add support for online streaming.
 2. Implement lyrics synchronization.
-3. Enhance the UI with React or Vue.js for a modern interface.
-4. Optimize performance with database integration.
-5. Replace Flask's development server with a production-ready server like Gunicorn or uWSGI.
-6. Remove `if __name__ == '__main__': app.run(debug=True)` blocks from scripts when preparing for deployment and rely on `run.py` for launching the app.
+3. Enhance the UI with React or Vue.js for a modern interface(customizable media player w/ visulizations).
+5. Optimize performance with database integration.
+6. Replace Flask's development server with a production-ready server like Gunicorn or uWSGI.
+7. Remove `if __name__ == '__main__': app.run(debug=True)` blocks from scripts when preparing for deployment and rely on `run.py` for launching the app.
 
 ---
 
